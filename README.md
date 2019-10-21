@@ -2,7 +2,7 @@
 Simple Android app to convert currency.
 
 ## Demo
-![alt text](https://i.ibb.co/N11ZVNq/74486153-732313257180796-7902049838143897600-n.png )
+![alt text](https://i.ibb.co/LvVrVkB/rsz-74486153-732313257180796-7902049838143897600-n.png)
 
 ## Requirements
 *Android Studio
