@@ -1,7 +1,7 @@
 # Currency-Converter
 Simple Android app to convert currency.
 
-## Demo
+## Screenshot
 ![alt text](https://i.ibb.co/LvVrVkB/rsz-74486153-732313257180796-7902049838143897600-n.png)
 
 ## Requirements
