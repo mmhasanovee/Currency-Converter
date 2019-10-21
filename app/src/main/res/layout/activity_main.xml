@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <TextView
+        android:id="@+id/tvone"
+        android:textStyle="bold"
+        android:layout_marginLeft="5sp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textSize="25sp"
+        android:text="From:"
+        android:textColor="#FF3333"/>
+
+
+    <Spinner
+        android:id="@+id/spone"
+        android:layout_below="@+id/tvone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:popupBackground="@drawable/spinner">
+
+    </Spinner>
+
+
+    <TextView
+        android:text="Amount:"
+        android:textColor="#FF3333"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:layout_marginLeft="5sp"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtwo"
+        android:layout_below="@+id/spone"/>
+
+    <EditText
+        android:layout_below="@+id/tvtwo"
+        android:inputType="number"
+        android:id="@+id/etone"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/tvthree"
+        android:textColor="#FF3333"
+        android:layout_below="@+id/etone"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="To:"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="30sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Spinner
+        android:id="@+id/sptwo"
+        android:layout_below="@+id/tvthree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:popupBackground="@drawable/spinner"
+        ></Spinner>
+
+
+
+    <Button
+        android:text="Clear"
+        android:layout_marginLeft="10sp"
+        android:id="@+id/clear"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/custom_button"
+        />
+
+
+    <Button
+        android:id="@+id/swap"
+        android:layout_centerInParent="true"
+        android:text="Swap"
+        android:background="@drawable/custom_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginRight="10sp"
+        android:id="@+id/convert"
+        android:text="Convert"
+        android:layout_centerInParent="true"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_2"/>
+
+    <TextView
+
+        android:id="@+id/tvfour"
+        android:textColor="#FF3333"
+        android:textStyle="bold"
+        android:layout_marginTop="30sp"
+        android:textSize="25sp"
+        android:layout_below="@+id/clear"
+        android:text="Result:"
+        android:layout_marginLeft="5sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/ettwo"
+        android:layout_below="@+id/tvfour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"/>
+
+
+
+
+</RelativeLayout>
